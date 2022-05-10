@@ -1,0 +1,61 @@
+.boxes{
+    display: flex;
+    flex-direction: row;
+  }
+  .login-title, .socials-title{
+    color: white;
+  }
+  .login-box{
+    display: flex;
+    flex-direction: column;
+    width: 65vw;
+    height: 100vh;
+    background-color: #664f8f;
+  }
+  .welcome-box{
+    display: flex;
+    flex-direction: column;
+    width: 35vw;
+    height: 100vh;
+    background-color: #ffc107;
+  }
+  .login-title, .socials-title, .welcome-title, .welcome-line{
+    align-self: center;
+    text-align: center;
+  }
+  ul{
+    list-style-type: none;
+    display: flex;
+    align-self: center;
+  }
+  li{
+    padding-left: 15px;
+  }
+  .fix-mg{
+    margin-bottom: 10px;
+  }
+  .fix-mg-2{
+    margin-bottom: 20px;
+  }
+  .fix-mg-4{
+    margin-bottom: 40px;
+  }
+  .sign-up{
+    background-color: #664f8f;
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 15px;
+  }
+  .add-head-space{
+    margin-top: 100px;
+  }
+  .sign-in{
+    background-color: #ffc107;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 15px;
+  }
+  
+  
+  
